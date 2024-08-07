@@ -1,0 +1,30 @@
+.icon-custom{
+    position: relative;
+    
+}
+.icon-custom::after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 40%;
+    width: 80px;
+    height: 3px;
+    background-color: white;
+}
+
+.icon-custom::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top:40%;
+    width: 80px;
+    height: 3px;
+    background-color: white;
+}
+
+.footer-custom{
+    background-color: #2c3e50;
+}
+.home-color{
+    background-color: #1abc9c;
+}

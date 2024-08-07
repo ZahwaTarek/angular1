@@ -1,0 +1,27 @@
+.footer-custom{
+    background-color: #2c3e50;
+    color: white;
+    padding-block: 2.3rem;
+    text-align: center;
+}
+.icons i{position: relative;}
+.icons i{
+    padding: 1rem;
+}
+.icons>*::after{
+  content: "";
+  position: absolute;
+  left: 16%;
+  bottom: 14%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.copyright{
+    background-color: #1a252f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
